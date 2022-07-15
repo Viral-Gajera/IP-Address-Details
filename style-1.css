@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+::selection{
+    background-color: rgb(61, 181, 237);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+
+}
+
+body{       
+
+    min-height: 100vh;
+
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search-container{
+
+    width: 400px;
+    height: 40px;
+
+    border-radius: 7px;
+
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container input{
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    width: 290px;
+
+    border: 0px;
+    outline: 0px;
+}
+
+.search-container button{
+    margin: 0px 10px 0px 0px;
+    width: 90px;
+    height: 30px;
+
+    border: 0px;
+    border-radius: 5px;
+
+    background-color: rgb(61, 181, 237);
+}
+
+
+
+.details{
+
+
+    width: 600px;
+    height: 500px;
+
+    margin: 50px 0px 0px 0px ;
+
+    border-radius: 7px;
+
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.details div{
+    text-align: center;
+}
+
+.details div p{
+    font-size: 0.7em;
+}
+
+.details table{
+    margin: 30px 0px 0px 0px ;
+    font-size: 0.9em;
+}
+
+.details table tr:nth-child(1){
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.details table tr{
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.details table tr:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+.details table tr td:nth-child(1){
+    display: inline-block;
+    width: 100px;
+    margin: 2px;
+    font-size: 0.9em;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+}
+
+.details table tr td:nth-child(2){
+    display: inline-block;
+    width: 150px;
+    margin: 5px 2px;
+    font-size: 0.9em;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+
+}
